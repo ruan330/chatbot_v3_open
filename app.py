@@ -70,7 +70,7 @@ st.markdown(
 # 側邊欄
 with st.sidebar:
     st.header('📖 關於災防智慧GPT')
-    st.write('這是一款結合 AWS Bedrock 和 OpenAI 的聊天機器人，旨在提供災防科技相關的資訊。')
+    st.write('這是一款結合 RAG 和 OpenAI 的聊天機器人，主要提供災防科技相關的資訊。')
     st.write('請輸入您的問題，系統將為您檢索相關資訊並生成回答。')
 
     st.markdown('---')
@@ -86,8 +86,8 @@ with st.sidebar:
     )
 
     st.markdown('---')
-    st.write('👨‍💻 **開發者**：您的名字或團隊名稱')
-    st.write('📫 **聯絡方式**：您的聯絡資訊，如 email 或網站')
+    st.write('👨‍💻 **開發者**：NCHU ICTA LAB')
+    st.write('📫 **聯絡方式**：d112056002@mail.nchu.edu.tw')
 
     # 添加版本信息
     st.caption('版本: 0.0.3')
